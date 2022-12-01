@@ -5,7 +5,7 @@ function Main() {
   return (
     <div>
       <div className="h-screen  flex-col my-2 md:my-20 w-screen  mx-auto flex  items-center justify-center">
-        <h1 className="font-medium text-2xl m-0 w-full text-center">
+        <h1 className="font-medium text-2xl my-4 m-0 w-full text-center">
           Who we are ?
         </h1>
         <div className="flex flex-col md:flex-row items-center justify-between w-10/12">
@@ -14,7 +14,7 @@ function Main() {
             alt="old woman"
             className="h-96 w-96 hidden md:block"
           />
-          <h4 className=" py-8 px-10">
+          <h4 className=" px-2">
             <span className="text-cyan-500 text-2xl tracking-[1px] font-medium">
               Paeonia
             </span>{" "}
