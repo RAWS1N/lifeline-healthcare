@@ -1,0 +1,6 @@
+export {default as Home} from './Home'
+export {default as SpecialService} from './SpecialServices'
+export {default as Isolation} from './Isolation'
+export {default as Product} from './Product'
+export {default as ICUService} from './ICUService'
+export {default as CorporateService} from './CorporateService'

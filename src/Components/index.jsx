@@ -1,0 +1,6 @@
+export {default as Header} from './Header'
+export {default as Main} from './Main'
+export {default as Services} from './Services'
+export {default as Service} from './Service'
+export {default as Contact} from './Contact'
+export {default as Navigator} from './Navigator'
