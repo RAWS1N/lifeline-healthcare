@@ -18,7 +18,7 @@ function Main() {
             <span className="text-cyan-500 text-2xl tracking-[1px] font-medium">
               LifeLine Healthcare
             </span>{" "}
-            Healthcare is a team of professional who deliver quality medical
+             is a team of professional who deliver quality medical
             services.we're seeking to bridge the existing service gap for
             patients who require specialized and integrated at-home care. The
             company is a collaborative venture designed to offer a one-stop
