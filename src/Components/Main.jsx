@@ -16,7 +16,7 @@ function Main() {
           />
           <h4 className=" py-8 px-10">
             <span className="text-cyan-500 text-2xl tracking-[1px] font-medium">
-              Paeonia
+              LifeLine Healthcare
             </span>{" "}
             Healthcare is a team of professional who deliver quality medical
             services.we're seeking to bridge the existing service gap for
