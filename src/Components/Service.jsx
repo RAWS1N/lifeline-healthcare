@@ -8,7 +8,7 @@ function Service({ service, icon, link }) {
         {service}
       </p>
       <img src={`/images/${icon}.png`} alt={service} className="h-20 w-20" />
-      <Link to={link} preventScrollReset={true} className="w-full md:w-8/12">
+      <Link to={link}  className="w-full md:w-8/12">
         <div className="flex items-center justify-center gap-2 text-white bg-black py-1 w-full px-0 rounded-[4px] my-4 cursor-pointer">
           <button className="">Explore Now</button>
           <img

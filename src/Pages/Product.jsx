@@ -11,8 +11,8 @@ function Product() {
         Equipment on rent
       </h1>
       <div className="grid  grid-cols-1 md:grid-cols-3 px-10 gap-4 py-10 ">
-        {Equipment.map((item) => (
-          <ProductCard {...item} />
+        {Equipment.map((item,idx) => (
+          <ProductCard key={idx} {...item} />
         ))}
       </div>
     </div>
