@@ -11,7 +11,7 @@ function Contact() {
   return (
     <div
       style={styles}
-      className="h-screen  space-y-5 relative flex flex-col mx-auto z-0 items-center max-w-7xl"
+      className="h-screen  space-y-5 relative flex flex-col mx-auto z-0 items-center"
     >
       <h1 className="absolute top-20 text-2xl">Contact Us</h1>
       <form className="flex absolute top-28 md:top-32 w-10/12 md:w-6/12 flex-col items-center justify-center">
