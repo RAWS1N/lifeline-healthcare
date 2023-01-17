@@ -11,11 +11,11 @@ function Contact() {
   return (
     <div
       style={styles}
-      className="h-screen  space-y-5 relative flex flex-col mx-auto z-0 items-center "
+      className="h-screen  space-y-5 relative flex flex-col mx-auto z-0 items-center max-w-7xl"
     >
       <h1 className="absolute top-20 text-2xl">Contact Us</h1>
       <form className="flex absolute top-28 md:top-32 w-10/12 md:w-6/12 flex-col items-center justify-center">
-        <div className=" my-2 flex flex-col md:flex-row items-center gap-2 text-xl md:text-2xl  justify-center">
+        <div className=" my-2 flex flex-col md:flex-row items-center gap-2 text-xl md:text-2xl  justify-center w-full">
           <div className="flex items-center justify-center gap-2">
             <BsFillTelephoneFill />
             <h4>(+91) 7290060030</h4>

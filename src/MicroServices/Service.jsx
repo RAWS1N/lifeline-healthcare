@@ -7,8 +7,12 @@ function Service({ children, image, title, text }) {
         {title}
       </h1>
       <div className="flex-col md:flex-row  items-center my-10 justify-between">
-        <img src={`/images/${image}.png`} alt={image} className="h-72 w-72  mx-auto" />
-        <h5 className="px-0 text-lg text-center">{text}</h5>
+        <img
+          src={`/images/${image}.png`}
+          alt={image}
+          className="h-72 w-72  mx-auto"
+        />
+        <h5 className="px-0 text-lg text-center md:text-left">{text}</h5>
       </div>
 
       {children}

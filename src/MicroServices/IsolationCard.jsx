@@ -7,7 +7,7 @@ function IsolationCard({ image, title, text }) {
         {title}
       </h2>
       <img className="h-36 w-36 p-4" src={`/images/${image}.png`} alt={image} />
-      <h4 className="text-center leading-relaxed">{text}</h4>
+      <h4 className="sm:text-center leading-relaxed">{text}</h4>
     </div>
   );
 }
